@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:active{
+    color: dodgerblue;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+/*<!--------------------------------------------- top bar -------------------------------------------------->*/
+
+.top {
+    position: sticky;
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.topele {
+    display: inline;
+    position: relative;
+    left: 70px;
+    text-align: center;
+}
+
+.lef {
+    position: relative;
+    display: inline;
+    left: 700px;
+    text-align: center;
+}
+
+    .lef a {
+        color: black;
+    }
+
+        .lef a:hover {
+            color: white;
+        }
+
+
+
+/*<!-------------------------------------------------- nav bar --------------------------------------------------------->*/
+
+
+/*<!-------------------------------------------------- nav bar --------------------------------------------------------->*/
+
+.head0 {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+}
+
+.navb {
+    justify-content: space-around;
+    flex: 2;
+}
+
+    .navb ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+        .navb ul li {
+            padding: 10px;
+        }
+
+            .navb ul li a {
+                text-decoration: none;
+                font-weight: bold;
+                color: black;
+            }
+
+            .navb ul li:hover {
+                background-color: dodgerblue;
+                border-radius: 5px;
+                color: white;
+            }
+
+.submenu1 ul {
+    display: none;
+}
+
+.navb ul li:hover .submenu1 ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.submenu1 ul li {
+    margin: 10px;
+}
+
+    .submenu1 ul li a {
+        font-weight: 500;
+    }
+
+.navb ul li:hover .submenu1 ul li {
+    padding: 10px;
+    border-radius: 0px;
+}
+
+    .navb ul li:hover .submenu1 ul li a:hover {
+        color: white;
+    }
+
+.submenu2 {
+    display: none;
+}
+
+.hoverme:hover .submenu2 {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+
+.active{
+    background-color: dodgerblue;
+    border-radius:5px;
+}
+
+
+/*<!-------------------------------------------------- /nav bar --------------------------------------------------------->*/
+
+/*<!-------------------------------------------Section 1 info--------------------------------------------------->*/
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100%;
+}
+
+.sidebar{    
+    background-color:dodgerblue;
+    height:650px;
+    padding:10px;
+}
+.sidebar ul{
+    list-style:none;
+}
+.sidebar ul li{
+    text-decoration:none;
+    font-size:18px;
+    padding:10px;
+}
+
+.sidebar ul li a{
+    color:white;
+}
+
+.sidebar ul li:hover{
+    text-decoration:none;
+    
+}
+.sidebar ul li a:hover{
+    color:yellow;
+    text-decoration:none;
+}
+.sidebar .active{
+    background-color:black;
+    
+}
+/*------------------------------------------------------------------------------*/
+.info {
+    font-size: 13px;
+    text-align: left;
+    font-weight: 420;
+    color: black;
+}
+
+
+
+
+
+/*<!-------------------------------------------Section 3 links-------------------------------------------------->*/
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 300px;
+}
+
+.c30 {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 300;
+    color: white;
+}
+
+#c3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.c31, .c32, .c33, .c34 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+    .c31 pre {
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+
+.c30 a {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+    .c30 a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+.c34 pre {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*<!-----------------------------------footer-------------------------------------->*/
+
+.foot {
+    width: 100%;
+    height: 50px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*<!-----------------------------------footer-------------------------------------->*/
+
+.foot {
+    width: 100%;
+    height: 50px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.Patientregitration
+{
+   width:800px;
+  margin-left: 22%;
+  margin-right: 22%;
+  background:yellow;
+  color:black;
+  background-color:dodgerblue;
+
+
+
+}
+
+
+.Patientregitration h1
+{
+font-size:50px;
+text-align:center;
+color:white;
+font-weight:500px;
+
+
+}
+.Patientregitration format
+
+{
+margin-left: 30px;
+margin-bottom: 10px;
+
+color: black;
+font-size:25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+justify-content: space-evenly;
+
+}
+
+
+.Patientregitration input[type ="text"],.Patientregitration input[type ="Name"],.Patientregitration input[type ="number"],.Patientregitration input[type ="date"],.Patientregitration input[type ="password"]
+{
+background:none;
+text-align:center;
+margin-block-start: 10px;
+margin-left: 30px;
+margin-bottom: 30px;
+
+font-size:13px;
+padding-left: 10px;
+border:3px solid white;
+width:300px;
+height:30px;
+transition:0.20s;
+border-color:black;
+background-color: lightyellow;
+}
+
+
+.Patientregitration input[type="submit"]
+{
+width:250px;
+height:50px;
+margin: 20px;
+font-size:30px;
+color:black;
+background-color:white;
+
+
+
+}
+
+
+.error0{
+    font-size:50px;
+    
+    color:white;
+    font-weight:500px;
+}

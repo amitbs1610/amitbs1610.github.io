@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: sans-serif;
+}
+
+/*<!--------------------------------------------- top bar -------------------------------------------------->*/
+
+
+/*<!--------------------------------------- /top bar ------------------------------------------------>*/
+
+	
+
+
+
+/*<!-------------------------------------------------- nav bar --------------------------------------------------------->*/
+
+.head0 {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+}
+.navb{
+    justify-content: space-around;
+    flex:2;
+}
+.navb ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style:none;
+}
+.navb ul li{
+    padding:10px;
+}
+.navb ul li a{
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+}
+
+.navb ul li:hover{
+    background-color:dodgerblue;
+    border-radius:5px;
+    color:white;
+}
+
+.submenu1 ul{
+    display:none;
+}
+
+.navb ul li:hover .submenu1 ul{
+    display:block;
+    position:absolute;
+    background-color:white;
+    margin-top:10px;
+}
+.submenu1 ul li {
+    
+    margin:10px;
+    
+}
+.submenu1 ul li a{
+    font-weight:500;
+}
+
+.navb ul li:hover .submenu1 ul li{
+    padding:10px;
+    border-radius:0px;
+}
+.navb ul li:hover .submenu1 ul li a:hover{
+    color:white;
+}
+.submenu2{
+   display: none;
+}
+.hoverme:hover .submenu2{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: -40px;
+    margin-left:150px;
+}
+/*
+.submenu1 ul li:hover .submenu2 ul{
+    
+    position:absolute;
+    background-color:white;
+    margin-top:10px;
+}*/
+    /*<!-------------------------------------------------- /nav bar --------------------------------------------------------->*/
+    /*<!-------------------------------------------Section 1 news notice-------------------------------------------------->*/
+    /*<!-------------------------------------------/Section 1 news notice-------------------------------------------------->*/
+    /*<!-------------------------------------------/Section 2 vission-------------------------------------------------->*/
+    /*<!-------------------------------------------Section 3 links-------------------------------------------------->*/
+    /*<!-----------------------------------footer-------------------------------------->*/
+

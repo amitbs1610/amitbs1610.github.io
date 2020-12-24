@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+a:active{
+    color:dodgerblue;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+/*<!--------------------------------------------- top bar -------------------------------------------------->*/
+
+.top {
+    position: sticky;
+    width: 100%;
+    background-color:dodgerblue;
+}
+
+.topele {
+    display: inline;
+    position: relative;
+    left: 70px;
+    text-align: center;
+}
+
+.lef {
+    position: relative;
+    display: inline;
+    left: 700px;
+    text-align: center;
+}
+
+.lef a {
+    color: black;
+}
+
+.lef a:hover {
+    color: white;
+}
+
+
+/*<!--------------------------------------- /top bar ------------------------------------------------>*/
+
+/*<!------------- name bar ----------------->
+.name
+{
+	position:sticky;
+	width:100%;
+	height:90px;
+	background-color:white;
+}
+
+
+
+.namepvg{
+	position:sticky;
+	
+	
+	display: inline-block;
+    width: 200px;
+    height: 80px;
+    
+}
+a:hover {
+   background-color: white;
+}
+	
+------------- /name bar ----------------->*/
+
+
+/*<!-------------------------------------------------- nav bar --------------------------------------------------------->
+
+
+.header0 {
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: white;
+    align-items:center;
+    margin:auto;
+    *//*
+    position:sticky;
+    top:0%;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+.logo {
+    display: flex;
+    flex: 1; 
+}
+
+.navb {
+    
+    flex:2;
+}
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navlink{
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+}
+
+.navlink:hover{
+    text-decoration: none;
+    color:dodgerblue;     
+}
+
+.navb:active {
+    text-decoration: none;
+    color: dodgerblue;
+}
+active {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+
+.submenu1 {
+    list-style: none;
+}
+
+.navlink1{
+    text-decoration:none;
+}
+
+.navb ul li ul {
+    display:none;
+    list-style: none;
+}
+
+.navb ul li ul li{
+    text-decoration:none;
+    color:black;
+    padding:10px;
+}
+
+.navb ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background-color:white;
+}
+
+.navlink1{
+    text-decoration:none;
+    color:black;
+    margin:7px;
+    font-size:15px;
+}
+
+
+.navlink1:hover{
+    text-decoration:none;
+    color:dodgerblue;
+}
+
+.navlink2 {
+    text-decoration: none;
+    color: black;
+}
+
+.navlink2:hover{
+    text-decoration: none;
+    color: dodgerblue;
+    margin:7px;
+
+}
+
+.submenu2 {
+    display:none;
+}
+
+
+.hoverme:hover .submenu2 ul{
+    position:absolute;
+    display:block;
+}
+.submenu1 ul li:hover .submenu2 ul{
+    position: absolute;
+    display: block;
+}
+
+
+
+.backimg {
+    background-image:url("img/front.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+<!-------------------------------------------------- /nav bar --------------------------------------------------------->*/
+
+
+
+/*<!-------------------------------------------------- nav bar --------------------------------------------------------->*/
+
+.head0 {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+}
+
+.navb {
+    justify-content: space-around;
+    flex: 2;
+}
+
+    .navb ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+        .navb ul li {
+            padding: 10px;
+        }
+
+            .navb ul li a {
+                text-decoration: none;
+                font-weight: bold;
+                color: black;
+            }
+
+            .navb ul li:hover {
+                background-color: dodgerblue;
+                border-radius: 5px;
+                color: white;
+            }
+
+.submenu1 ul {
+    display: none;
+}
+
+.navb ul li:hover .submenu1 ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.submenu1 ul li {
+    margin: 10px;
+}
+
+    .submenu1 ul li a {
+        font-weight: 500;
+    }
+
+.navb ul li:hover .submenu1 ul li {
+    padding: 10px;
+    border-radius: 0px;
+}
+
+    .navb ul li:hover .submenu1 ul li a:hover {
+        color: white;
+    }
+
+.submenu2 {
+    display: none;
+}
+
+.hoverme:hover .submenu2 {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+
+a:active{
+    background-color:dodgerblue;
+}
+
+
+
+/*<!-------------------------------------------Section 1 news notice-------------------------------------------------->*/
+
+.container1{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color:dodgerblue;
+    width:100%;
+    height:400px;
+    align-items:center;
+
+}
+.achievements,.notice,.events {
+    width: 25%;
+    height: 300px;
+    background-color: white;
+   
+}
+#container1id1{
+    text-align:center;
+    font-size:18px;
+    color:dodgerblue;
+    font-weight:bold;
+    margin-top:20px;
+
+}
+.a{
+    margin: 20px;
+    font-size:12px;
+}
+
+/*<!-------------------------------------------/Section 1 news notice-------------------------------------------------->*/
+
+
+/*<!-------------------------------------------/Section 2 vission-------------------------------------------------->*/
+
+.container2 {
+    font-size: 20px;
+    margin:30px;
+    text-align:center;
+    font-weight:600;
+}
+
+#container2id{
+    text-shadow:2px 2px 2px;
+    font-size:29px;
+    font-weight:bold;
+}
+
+
+/*<!-------------------------------------------Section 3 links-------------------------------------------------->*/
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 300px;
+    
+}
+.c30 {
+    
+    font-size: 14px;
+    text-align: left;
+    font-weight: 300;
+    color: white;
+}
+
+#c3{
+    font-size:16px;
+    font-weight:600;
+}
+
+.c31,.c32,.c33,.c34{
+    margin-top:25px;
+    margin-bottom:25px;
+    
+    
+}
+.c31 pre{
+    color: white;
+    font-size:14px;
+    font-weight:300;
+}
+
+
+.c30 a{
+    font-size:14px;
+    font-weight:300;
+    text-decoration:none;
+    color: white;
+}
+
+.c30 a:hover{
+    color:black;
+    text-decoration:none;
+}
+
+.c34 pre{
+    color: white;
+    font-size:14px;
+    font-weight:300;
+}
+   
+/*<!-----------------------------------footer-------------------------------------->*/
+
+.foot{
+    width:100%;
+    height:50px;
+    background-color:dodgerblue;
+    color:white;
+    font-size:12px;
+    text-align:center;
+}
